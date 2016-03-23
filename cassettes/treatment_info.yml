@@ -1,0 +1,93 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://watsi.org/profile/9880965bf955.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - watsi.rb 0.1.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      Host:
+      - watsi.org
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 30 Mar 2016 04:56:18 GMT
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Etag:
+      - W/"db0c0469b991a75463d232544d1b1f34"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - f463c3b9-f002-4aa8-8aa8-9524ab51a1c0
+      X-Runtime:
+      - '0.056976'
+      Strict-Transport-Security:
+      - max-age=31536000
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpZCI6NzY5MywidG9rZW4iOiI5ODgwOTY1YmY5NTUiLCJuYW1lIjoiUmVq
+        aW5hIiwiaGVhZGVyIjoiUmVqaW5hIGlzIGEgeW91bmcgZ2lybCBmcm9tIE5l
+        cGFsIHdobyBuZWVkcyAkNTc5IHRvIHJlZ2FpbiBtb2JpbGl0eSBvZiBoZXIg
+        YXJtLiIsImRlc2NyaXB0aW9uIjoiUmVqaW5hIGlzIHNpeCB5ZWFycyBvbGQs
+        IGFuZCBsaXZlcyB3aXRoIGhlciBmYW1pbHkgaW4gTmVwYWwuIFNoZSBpcyBp
+        biB0aGUgZmlyc3QgZ3JhZGUgYW5kIGVuam95cyByZWFkaW5nIHN0b3JpZXMg
+        YW5kIHBvZW1zLlxyXG5cclxuUmVqaW5hIHJlY2VudGx5IGJyb2tlIGhlciBh
+        cm0gd2hpbGUgcGxheWluZyB3aXRoIGZyaWVuZHMuIE91ciBtZWRpY2FsIHBh
+        cnRuZXIsIFBvc3NpYmxlLCBzaGFyZXM6IOKAnFJlamluYSB3YXMgcGxheWlu
+        ZyBvbiBhIHJvcGUgc3dpbmcgd2hlbiBpdCBicm9rZSBhbmQgc2hlIGxhbmRl
+        ZCBvbiBoZXIgcmlnaHQgYXJtOyBpdCBoYXMgYmVlbiBodXJ0aW5nIHNpbmNl
+        IHRoZW4uIE5vdCBvbmx5IGRpZCBzaGUgbWlzcyBoZXIgc2Nob29sIHRvIGNv
+        bWUgdG8gdGhlIGhvc3BpdGFsIGJ1dCBzaGUgYWxzbyBuZWVkcyBoZWxwIHdp
+        dGggaGVyIGV2ZXJ5IGRheSB3b3JrIGxpa2UgZWF0aW5nIGFuZCBkcmVzc2lu
+        ZyB1cC7igJ1cclxuXHJcblJlamluYSBuZWVkcyB0byBiZSB0cmVhdGVkIHNv
+        b24gaW4gb3JkZXIgdG8gcHJldmVudCBsb25nLXRlcm0gY29tcGxpY2F0aW9u
+        cyBvZiB0aGUgZnJhY3R1cmUuIElmIGxlZnQgdW50cmVhdGVkLCB0aGUgZnJh
+        Y3R1cmVkIGJvbmUgY291bGQgbGVhZCB0byBwZXJtYW5lbnQgaW1tb2JpbGl0
+        eSBvciBpbmZlY3Rpb24uIFJlamluYSdzIGZhbWlseSBmYW1pbHkgY2Fubm90
+        IGFmZm9yZCB0aGUgJDU3OSB0cmVhdG1lbnQgc2hlIG5lZWRzLCB3aGljaCBp
+        bmNsdWRlcyBzdXJnZXJ5IGFuZCBjYXN0aW5nLiBIZXIgdW5jbGUgdG9sZCBv
+        dXIgbWVkaWNhbCBwYXJ0bmVyLCBQb3NzaWJsZSwgdGhhdCB0aGUgZmFtaWx5
+        IGhhZCB0byB3YWxrIGZvciBmb3VyIGhvdXJzIHRvIHJlYWNoIHRoZSBob3Nw
+        aXRhbC5cclxuXHJcbkxldOKAmXMgaGVscCByYWlzZSB0aGUgZnVuZHMgZm9y
+        IFJlamluYeKAmXMgdHJlYXRtZW50IVxyXG4iLCJhZ2VfeWVhcnMiOjYsImFn
+        ZV9tb250aHMiOm51bGwsImNvdW50cnkiOiJOZXBhbCIsInVybCI6Imh0dHBz
+        Oi8vd2F0c2kub3JnL3Byb2ZpbGUvOTg4MDk2NWJmOTU1LXJlamluYSIsImJh
+        ZGdlX3VybCI6Imh0dHBzOi8vZDN3NTJ6MTM1amttOTcuY2xvdWRmcm9udC5u
+        ZXQvdXBsb2Fkcy9wcm9maWxlL2ltYWdlLzc2OTMvYmFkZ2VfZTlmNGYyODYt
+        MjlkMy00OTZmLTlkMWMtZjZhY2RjMmYzNmU1LmpwZyIsInByb2ZpbGVfdXJs
+        IjoiaHR0cHM6Ly9kM3c1MnoxMzVqa205Ny5jbG91ZGZyb250Lm5ldC91cGxv
+        YWRzL3Byb2ZpbGUvaW1hZ2UvNzY5My9wcm9maWxlX2U5ZjRmMjg2LTI5ZDMt
+        NDk2Zi05ZDFjLWY2YWNkYzJmMzZlNS5qcGciLCJwZXJfY2VudF9mdW5kZWQi
+        OiIzMyUiLCJ0YXJnZXQiOiIkNTc5IiwidGFyZ2V0X3RvX2dvIjoiJDM4NCB0
+        byBnbyIsImRvbmF0ZWQiOiIkMTk1IiwibnVtYmVyX29mX2Rvbm9ycyI6MTZ9
+    http_version: 
+  recorded_at: Wed, 30 Mar 2016 04:56:19 GMT
+recorded_with: VCR 3.0.1

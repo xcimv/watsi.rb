@@ -1,0 +1,70 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://watsi.org/fund-treatments.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - watsi.rb 0.1.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      Host:
+      - watsi.org
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 30 Mar 2016 04:56:17 GMT
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Etag:
+      - W/"287285783e9defd553389bce8c70b1fc"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 3713ea39-ea18-4f3d-ad09-341b99b5ef2f
+      X-Runtime:
+      - '0.106894'
+      Strict-Transport-Security:
+      - max-age=31536000
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: '{"profiles":[{"id":7712,"token":"af6a6862ab21","name":"Mahendra","age_years":8,"age_months":null,"country":"Nepal","url":"https://watsi.org/profile/af6a6862ab21-mahendra","badge_url":"https://d3w52z135jkm97.cloudfront.net/uploads/profile/image/7712/badge_253ed1e4-515a-49f2-9152-74af0f41326f.jpg","profile_url":"https://d3w52z135jkm97.cloudfront.net/uploads/profile/image/7712/profile_253ed1e4-515a-49f2-9152-74af0f41326f.jpg","per_cent_funded":"7%","target":"$428","target_to_go":"$397
+        to go","donated":"$31","number_of_donors":3},{"id":7698,"token":"555e72ce646a","name":"Ganesh","age_years":20,"age_months":null,"country":"Nepal","url":"https://watsi.org/profile/555e72ce646a-ganesh","badge_url":"https://d3w52z135jkm97.cloudfront.net/uploads/profile/image/7698/badge_9ce44911-e342-440f-959b-f337c9e274e0.jpg","profile_url":"https://d3w52z135jkm97.cloudfront.net/uploads/profile/image/7698/profile_9ce44911-e342-440f-959b-f337c9e274e0.jpg","per_cent_funded":"12%","target":"$579","target_to_go":"$509
+        to go","donated":"$70","number_of_donors":5},{"id":7697,"token":"24f3f8cdee32","name":"Prakash","age_years":10,"age_months":null,"country":"Nepal","url":"https://watsi.org/profile/24f3f8cdee32-prakash","badge_url":"https://d3w52z135jkm97.cloudfront.net/uploads/profile/image/7697/badge_ddab8db3-3891-4f23-b339-dbabb21ed014.jpg","profile_url":"https://d3w52z135jkm97.cloudfront.net/uploads/profile/image/7697/profile_ddab8db3-3891-4f23-b339-dbabb21ed014.jpg","per_cent_funded":"17%","target":"$579","target_to_go":"$479
+        to go","donated":"$100","number_of_donors":6},{"id":7694,"token":"97267244e62a","name":"Rajesh","age_years":14,"age_months":null,"country":"Nepal","url":"https://watsi.org/profile/97267244e62a-rajesh","badge_url":"https://d3w52z135jkm97.cloudfront.net/uploads/profile/image/7694/badge_f0ab37e7-b578-4099-b9d5-ffce4b8935cf.jpg","profile_url":"https://d3w52z135jkm97.cloudfront.net/uploads/profile/image/7694/profile_f0ab37e7-b578-4099-b9d5-ffce4b8935cf.jpg","per_cent_funded":"24%","target":"$579","target_to_go":"$437
+        to go","donated":"$142","number_of_donors":13},{"id":7693,"token":"9880965bf955","name":"Rejina","age_years":6,"age_months":null,"country":"Nepal","url":"https://watsi.org/profile/9880965bf955-rejina","badge_url":"https://d3w52z135jkm97.cloudfront.net/uploads/profile/image/7693/badge_e9f4f286-29d3-496f-9d1c-f6acdc2f36e5.jpg","profile_url":"https://d3w52z135jkm97.cloudfront.net/uploads/profile/image/7693/profile_e9f4f286-29d3-496f-9d1c-f6acdc2f36e5.jpg","per_cent_funded":"33%","target":"$579","target_to_go":"$384
+        to go","donated":"$195","number_of_donors":16},{"id":7692,"token":"a0b0bafd7227","name":"Mom","age_years":64,"age_months":null,"country":"Cambodia","url":"https://watsi.org/profile/a0b0bafd7227-mom","badge_url":"https://d3w52z135jkm97.cloudfront.net/uploads/profile/image/7692/badge_d21d7796-6dae-4aeb-8f2b-dcb3ddf97d5d.jpg","profile_url":"https://d3w52z135jkm97.cloudfront.net/uploads/profile/image/7692/profile_d21d7796-6dae-4aeb-8f2b-dcb3ddf97d5d.jpg","per_cent_funded":"14%","target":"$405","target_to_go":"$345
+        to go","donated":"$60","number_of_donors":5},{"id":7691,"token":"674ed8c2298c","name":"Susmita","age_years":9,"age_months":null,"country":"Nepal","url":"https://watsi.org/profile/674ed8c2298c-susmita","badge_url":"https://d3w52z135jkm97.cloudfront.net/uploads/profile/image/7691/badge_e05cb2e6-e213-404d-8a37-2e9ca32dba9f.jpg","profile_url":"https://d3w52z135jkm97.cloudfront.net/uploads/profile/image/7691/profile_e05cb2e6-e213-404d-8a37-2e9ca32dba9f.jpg","per_cent_funded":"20%","target":"$579","target_to_go":"$459
+        to go","donated":"$120","number_of_donors":11},{"id":7690,"token":"82e7a2ba5082","name":"Odilla","age_years":26,"age_months":null,"country":"Guatemala","url":"https://watsi.org/profile/82e7a2ba5082-odilla","badge_url":"https://d3w52z135jkm97.cloudfront.net/uploads/profile/image/7690/badge_aa099c64-e8f4-4ccc-93d4-b9a22c272cd1.JPG","profile_url":"https://d3w52z135jkm97.cloudfront.net/uploads/profile/image/7690/profile_aa099c64-e8f4-4ccc-93d4-b9a22c272cd1.JPG","per_cent_funded":"5%","target":"$377","target_to_go":"$357
+        to go","donated":"$20","number_of_donors":3},{"id":7686,"token":"64f32910d570","name":"Sokhom","age_years":75,"age_months":null,"country":"Cambodia","url":"https://watsi.org/profile/64f32910d570-sokhom","badge_url":"https://d3w52z135jkm97.cloudfront.net/uploads/profile/image/7686/badge_962226f1-a913-4066-b549-64dbe5e381d1.JPG","profile_url":"https://d3w52z135jkm97.cloudfront.net/uploads/profile/image/7686/profile_962226f1-a913-4066-b549-64dbe5e381d1.JPG","per_cent_funded":"22%","target":"$225","target_to_go":"$175
+        to go","donated":"$50","number_of_donors":8},{"id":7684,"token":"006d2336b89a","name":"Krishna","age_years":48,"age_months":null,"country":"Nepal","url":"https://watsi.org/profile/006d2336b89a-krishna","badge_url":"https://d3w52z135jkm97.cloudfront.net/uploads/profile/image/7684/badge_e8a6bc68-6b5a-4b75-8bda-7e2c4240d246.jpg","profile_url":"https://d3w52z135jkm97.cloudfront.net/uploads/profile/image/7684/profile_e8a6bc68-6b5a-4b75-8bda-7e2c4240d246.jpg","per_cent_funded":"15%","target":"$579","target_to_go":"$489
+        to go","donated":"$90","number_of_donors":7},{"id":7660,"token":"4954218886f1","name":"Bros","age_years":24,"age_months":null,"country":"Cambodia","url":"https://watsi.org/profile/4954218886f1-bros","badge_url":"https://d3w52z135jkm97.cloudfront.net/uploads/profile/image/7660/badge_16931cc9-d8b1-44e2-ab14-f18fc281708c.JPG","profile_url":"https://d3w52z135jkm97.cloudfront.net/uploads/profile/image/7660/profile_16931cc9-d8b1-44e2-ab14-f18fc281708c.JPG","per_cent_funded":"37%","target":"$809","target_to_go":"$509
+        to go","donated":"$300","number_of_donors":8},{"id":7647,"token":"68c69eda5105","name":"Nith","age_years":17,"age_months":null,"country":"Cambodia","url":"https://watsi.org/profile/68c69eda5105-nith","badge_url":"https://d3w52z135jkm97.cloudfront.net/uploads/profile/image/7647/badge_7e466dc2-f4d6-4c9d-ae47-3bbd85195716.JPG","profile_url":"https://d3w52z135jkm97.cloudfront.net/uploads/profile/image/7647/profile_7e466dc2-f4d6-4c9d-ae47-3bbd85195716.JPG","per_cent_funded":"26%","target":"$809","target_to_go":"$594
+        to go","donated":"$215","number_of_donors":23}]}'
+    http_version: 
+  recorded_at: Wed, 30 Mar 2016 04:56:18 GMT
+recorded_with: VCR 3.0.1
